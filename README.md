@@ -4,14 +4,14 @@
 ## 启动方式
 
 ```
-docker run -d --name ss-with-net-speeder -p 8989:8989 -p 22:22 malaohu/ss-with-net-speeder -s 0.0.0.0 -p 8989 -k RUYO.net -m rc4-md5
+docker run -d --name ss-with-net-speeder -p 8989:8989 -p 22:22 malaohu/ss-with-net-speeder -s 0.0.0.0 -p 8989 -k qfdk -m rc4-md5
 ```
 
 ## Arukas.io 启动
 
 ```
 镜像 ：malaohu/ss-with-net-speeder
-启动命令(CMD) ：-s 0.0.0.0 -p 8989 -k RUYO.net -m rc4-md5
+启动命令(CMD) ：-s 0.0.0.0 -p 8989 -k qfdk -m rc4-md5
 ```
 
 ## 支持SSH
